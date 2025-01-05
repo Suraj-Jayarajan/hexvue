@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 80">
+    <!-- Inverted Version (Group 2) - Positioned below -->
+    <g id="inverted" transform="translate(0, 80)">
+        <circle cx="40" cy="40" r="20" fill="none" stroke="white" stroke-width="3" />
+        <circle cx="90" cy="40" r="20" fill="none" stroke="white" stroke-width="3" />
+        <circle cx="140" cy="40" r="20" fill="none" stroke="white" stroke-width="3" />
+        <circle cx="190" cy="40" r="20" fill="none" stroke="white" stroke-width="3" />
+        <circle cx="240" cy="40" r="20" fill="none" stroke="white" stroke-width="3" />
+
+        <!-- Letters -->
+        <text x="32" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="white">Z</text>
+        <text x="83" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="white">I</text>
+        <text x="132" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="white">T</text>
+        <text x="182" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="white">R</text>
+        <text x="232" y="48" font-family="Arial" font-size="24" font-weight="bold" fill="white">O</text>
+    </g>
+
+</svg>
