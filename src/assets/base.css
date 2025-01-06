@@ -22,11 +22,32 @@
   --vt-c-text-dark-2: rgba(235, 235, 235, 0.64);
 }
 
+
+/* Semantic gradient variables */
+:root {
+  --gradient-warm-sunset: linear-gradient(135deg, #ffe5d3, #ffe2f0);
+  --gradient-soft-dawn: linear-gradient(135deg, #e7f5fd, #fcebe0);
+  --gradient-mint-bliss: linear-gradient(135deg, #cbf4df, #f0fcf5);
+  --gradient-pastel-bloom: linear-gradient(135deg, #f1eaff, #ffeded);
+  --gradient-lime-breeze: linear-gradient(135deg, #c8ffc3, #f5ff6d);
+  --gradient-dreamy-lilac: linear-gradient(135deg, #ebdff8, #f8fbdc);
+  --gradient-crystal-blue: linear-gradient(135deg, #aecdfd, #d8ecff);
+  --gradient-lavender-mist: linear-gradient(135deg, #cec5f2, #f4f7fc);
+  --gradient-soft-meadow: linear-gradient(135deg, #f2f5ed, #e5eae5);
+  --gradient-spring-sky: linear-gradient(135deg, #a3d5ff, #e1ffa3);
+  --gradient-fairy-glow: linear-gradient(135deg, #f2d0fa, #cce6fe);
+  --gradient-peach-haze: linear-gradient(135deg, #ffede9, #fff8ee);
+  --gradient-mint-whisper: linear-gradient(135deg, #94d6c0, #d2f6d5);
+  --gradient-sky-harmony: linear-gradient(135deg, #e0f6fd, #e8e7fd);
+  --gradient-morning-breeze: linear-gradient(135deg, #ebf7f0, #fff0df);
+  --gradient-ocean-bliss: linear-gradient(135deg, #d6ffec, #c2f9ff);
+}
+
 /* semantic color variables for this project */
 :root {
-  --color-background: var(--p-indigo-100);
-  --color-background-soft: var(--vt-c-white-soft);
-  --color-background-mute: var(--vt-c-white-mute);
+ --color-background: var(--gradient-fairy-glow); /* Default background using Warm Sunset gradient */
+  --color-background-soft: var(--gradient-soft-dawn);
+  --color-background-mute: var(--gradient-mint-bliss);
 
   --color-border: var(--vt-c-divider-light-2);
   --color-border-hover: var(--vt-c-divider-light-1);
